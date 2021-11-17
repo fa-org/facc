@@ -1,0 +1,12 @@
+use fa;
+
+
+
+enum LexerToken { Num, Oper, }
+
+class Program {
+	static void Main () {
+		LexerToken _a = LexerToken.Num;
+		Console.WriteLine ("{0}".Format (12));
+	}
+}
